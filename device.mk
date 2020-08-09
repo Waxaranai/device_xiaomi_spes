@@ -383,6 +383,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2 \
     vendor.qti.hardware.perf@2.2.vendor
 
+# Platform
+BENGAL := bengal
+TARGET_BOARD_PLATFORM := $(BENGAL)
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2 \

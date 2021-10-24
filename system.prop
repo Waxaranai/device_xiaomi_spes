@@ -54,6 +54,9 @@ ro.vendor.use_data_netmgrd=true
 # Pre-Rendering
 ro.vendor.perf.scroll_opt=true
 
+# RIL
+persist.sys.fflag.override.settings_provider_model=false
+
 # Radio
 persist.sys.fflag.override.settings_provider_model=false
 

@@ -163,7 +163,7 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor
 
 PRODUCT_PACKAGES += \
-    Snap
+    GrapheneOSCamera
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \

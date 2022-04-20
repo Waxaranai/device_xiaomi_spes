@@ -11,16 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from spes/spesn device
 $(call inherit-product, device/xiaomi/spes/device.mk)
 
-# Inherit some common KomodoOS stuff.
-$(call inherit-product, vendor/komodo/config/common.mk)
-
-# Komodo Stuff
-KOMODO_OFFICIAL := true
-KOMODO_GAPPS_TYPE := gapps
-KOMODO_VARIANT := RELEASE
+# Inherit some common xdroidOSS stuff.
+$(call inherit-product, vendor/xdroid/config/common.mk)
+XDROID_BOOT := 1080
+XDROID_MAINTAINER := Waxaranai
+USE_GAPPS := true
 
 # Product Specifics
-PRODUCT_NAME := komodo_spes
+PRODUCT_NAME := xdroid_spes
 PRODUCT_DEVICE := spes
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11

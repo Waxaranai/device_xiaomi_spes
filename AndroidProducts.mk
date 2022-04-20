@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/komodo_spes.mk
+    $(LOCAL_DIR)/xdroid_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    komodo_spes-user \
-    komodo_spes-userdebug \
-    komodo_spes-eng
+    xdroid_spes-user \
+    xdroid_spes-userdebug \
+    xdroid_spes-eng

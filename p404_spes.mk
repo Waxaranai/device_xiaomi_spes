@@ -13,6 +13,7 @@ $(call inherit-product, device/xiaomi/spes/device.mk)
 
 # Inherit some common Project 404 stuff.
 $(call inherit-product, vendor/404/configs/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Product Specifics
 PRODUCT_NAME := p404_spes

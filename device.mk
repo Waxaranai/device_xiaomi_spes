@@ -377,14 +377,11 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
-# Perf
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.2 \
-    vendor.qti.hardware.perf@2.2.vendor
-
 # Platform
 BENGAL := bengal
 TARGET_BOARD_PLATFORM := $(BENGAL)
+TARGET_COMMON_QTI_COMPONENTS += \
+    perf
 
 # Power
 PRODUCT_PACKAGES += \
